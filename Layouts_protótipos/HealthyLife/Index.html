@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!--font google-->
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,800" rel="stylesheet">
+    <!--icones-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <title>Helathy Life</title>
+  </head>
+  <body>
+
+     <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <a href="#intro"><img src="img/logo.png"></img></a>              
+      </div>
+          <!--<ul class="nav-menu">
+              <li tabindex="0">Item 1
+                  
+              </li>
+              <li tabindex="1">Item 2
+                  <ul>
+                      <li>Item 2.1</li>
+                  </ul>
+              </li>
+          </ul>-->
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li tabindex="0"><a href="#intro">Inicial</a></li>
+          <li tabindex="1"><a href="#about">Quem somos</a></li>
+          <li tabindex="2"><a href="#servicos">Serviços</a></li>
+          <li tabindex="3"><a href="#clientes">Clientes</a></li>
+          <li tabindex="4"><a href="#contato">Fale conosco</a></li>    
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu-container" onclick="myMenu()">
+             <i class="fas fa-bars"></i> menu                   
+          </button>
+  </header><!-- #header -->
+
+   <!--==========================
+    Intro Section
+  ============================-->
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background">
+              
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h1>Lorem ipsum dolor sit amet</h1>
+                  <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="#featured-services" class="btn-get-started scrollto">fale com a gente</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+    
+  </section><!-- #intro -->
+
+  <section id="about">
+    <div class="container-fluid about-container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 colunaEsq">
+          <h2>A Healthylife</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo tortor. Sed nec libero lacus. Sed a finibus odio, in viverra quam. Maecenas hendrerit lectus vitae ullamcorper vestibulum. Nulla fringilla in enim et dignissim.</p>
+          <p>Curabitur aliquet posuere eleifend. Cras laoreet efficitur massa, eget hendrerit urna imperdiet ut. Etiam et purus id sem varius egestas sit amet et dolor. Quisque pulvinar eros vel semper blandit. Integer vulputate molestie nisl et luctus. Sed vel pellentesque odio.</p>
+          <a href="#" class="btn-mais">quero conhecer mais</a>
+        </div>
+
+        <div class="col-lg-6 col-md-4 colunaDir">
+            <p>quem
+               somos 
+            </p>            
+        </div>
+      </div>  
+    </div>
+
+  </section>
+
+
+  <section id="servicos">
+
+    <h3>nossos serviços</h3>
+      <div class="container-fluid servicos-container">
+
+        <div class="row">
+          <div class="col active">
+            <i class="fas fa-cogs"></i>
+            <h3>Lorem ipsum</h3>
+          </div>
+       
+          <div class="col">
+            <i class="fas fa-cogs"></i>
+            <h3>Lorem ipsum</h3>
+          </div>
+       
+          <div class="col">
+            <i class="fas fa-cogs"></i>
+            <h3>Lorem ipsum</h3>
+          </div>  
+        </div>
+        
+      </div>
+  </section>
+
+  <section id="clientes">
+    <div class="container-fluid">
+      <h3>nossos clientes</h3>
+      <div class="row">
+
+        <div class="col">
+                <div id="Carousel-clientes" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                  <div class="row" id="row-clientes">
+                    
+                    <div class="col-lg-3 col-md-6" id="cliente1">
+          
+                      <a href="#" class="thumbnail">
+                        <img src="img/cliente1.png" alt="Image">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" id="cliente2">
+                      <a href="#" class="thumbnail">
+                        <img src="img/cliente2.png" alt="Image">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" id="cliente3">
+                      <a href="#" class="thumbnail">
+                        <img src="img/cliente3.png" alt="Image">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6" id="cliente4">
+                      <a href="#" class="thumbnail">
+                        <img src="img/cliente4.png" alt="Image">
+                      </a>
+                 
+                    </div>
+                  </div><!--.row-->
+                </div><!--.item-->
+                 
+                </div><!--.carousel-inner-->
+                  
+                  
+                  
+
+                </div><!--.Carousel-->
+                 
+    </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="svg">
+    
+  </section>
+
+
+  <section id="contato">
+    <div class="container">
+  <div class="row main">
+    <div class="col-md-7">
+      <h4>nossos contatos</h4>
+      <div class="row">
+        <div class="col-10">
+          <div class="row">
+            
+        <div class="col-4">
+              <p> <i class="fas fa-phone"></i> +55 84 3333-4444</p>
+            </div>
+
+            <div class="col-4">
+              <p> <i class="fas fa-phone"></i> +55 84 99999-8888</p>
+            </div>
+
+            <div class="col-4">
+              <p><i class="fas fa-envelope"></i> contato@healthy.com.br</p>
+            </div>
+      
+          </div>
+        </div>
+        
+      </div>
+      <h4>nosso escritório</h4> 
+      <p>Av. Fernado Luis Miguel, 2356, João Correia, Natal-RN</p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1984.5389752180715!2d-35.206476!3d-5.8446382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff773bcea8bb%3A0xf4138d0f2ae2850e!2sAv.+das+Tul%C3%ADpas+-+Capim+Macio%2C+Natal+-+RN!5e0!3m2!1spt-BR!2sbr!4v1527305473685" width="600" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+
+    <div class="col-md-4">
+      <h4>fale conosco</h4>
+      <p>Se preferir, nos envie uma mensagem que te retornaremos em breve!</p>
+      <div class="form">
+          
+          <form action="" method="post" role="form" class="contactForm">
+        
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Seu nome" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="usuario@email.com" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Seu telefone" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Sua mensagem"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center">
+              <button>enviar</button>
+            </div>
+
+          </form>
+        </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <section id="contatoMobile">
+    <div class="container-fluid">
+  <div class="row main">
+
+    <div class="col-12 col-md">
+      <h4>fale conosco</h4>
+      <p>Se preferir, nos envie uma mensagem que te retornaremos em breve!</p>
+      <div class="form">
+          
+          <form action="" method="post" role="form" class="contactForm">
+        
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Seu nome" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="usuario@email.com" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Seu telefone" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Sua mensagem"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center">
+              <button>enviar</button>
+            </div>
+
+          </form>
+        </div>
+    </div>
+
+    <div class="col-md-11">
+      <h4>nossos contatos</h4>
+      <div class="row">
+        <div class="col-md-11">
+          <div class="row">
+            
+        <div class="col-4">
+              <p> <i class="fas fa-phone"></i> +55 84 3333-4444</p>
+            </div>
+
+            <div class="col-4">
+              <p> <i class="fas fa-phone"></i> +55 84 99999-8888</p>
+            </div>
+
+            <div class="col-4">
+              <p><i class="fas fa-envelope"></i> contato@healthy.com.br</p>
+            </div>
+      
+          </div>
+        </div>
+        
+      </div>
+      <h4>nosso escritório</h4> 
+      <p>Av. Fernado Luis Miguel, 2356, João Correia, Natal-RN</p>
+      <div class="row">
+        <div class="col">
+          <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1984.5389752180715!2d-35.206476!3d-5.8446382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff773bcea8bb%3A0xf4138d0f2ae2850e!2sAv.+das+Tul%C3%ADpas+-+Capim+Macio%2C+Natal+-+RN!5e0!3m2!1spt-BR!2sbr!4v1527305473685" width="707" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </section>
+
+  <div class="footer">
+    <div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <p>© Copyright Healthy 2017. Todos os Direitos Reservados.</p>
+    </div>
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-1">
+      <img src="img/tootz.png">
+    </div>
+  </div>
+</div>
+  </div>
+
+</div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script>
+    function myMenu() {
+      var x = document.getElementById("nav-menu-container");
+      if (x.style.display === "none") {
+          x.style.display = "inline-block";
+      } else {
+          x.style.display = "none";
+    }
+}
+</script>
+  </body>
+</html>

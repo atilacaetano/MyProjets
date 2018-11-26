@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <title>Happies</title>
+  </head>
+  <!--BODY-->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Masculino
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Coleções Colors</a>
+          <a class="dropdown-item" href="#">Coleção Jeans</a>     
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Feminino
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Como nós ajudamos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Programa de Recompensas</a>
+      </li>
+    </ul>
+  
+  <div class="navbar-collapse collapse order-2">
+    <a class="navbar-brand mx-auto" href="#">
+      <div id="logo">
+        <img src="img/logo.png">
+      </div>
+    </a>
+  </div>  
+
+
+  </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="input_search">
+      <a href="#" id="search"><i class="fas fa-search"></i></a>
+      <a href=""><i class="fas fa-shopping-basket"></i></a>
+      <a href=""><i class="fas fa-user-circle"></i></a>
+    </form>
+
+</nav>
+
+                          <!--Breadcrumb-->
+  <div class="container" id="breadcrumb-container">
+    <div class="row">
+      <div class="col-md-1 col-sm"></div>
+        <div class="col-md-10">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                    <li class="breadcrumb-item"><a href="#">Categoria 1</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><b>Nome do Produto</b></li>
+                </ol>
+            </nav>
+            <hr class="line_separated">
+        </div>
+      <div class="col-md-1 col-sm"></div>
+    </div>
+  </div>
+
+
+                        
+
+  <!--shop-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-sm"></div>
+      <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-3 filter-col"><!--filter col-->
+                <div class="row">
+                  <div class="col-md-12|auto">
+                      <h5>Filtrar por:</h5>
+                  </div>
+                </div>
+                <div class="row"><!--size row-->
+                  <div class="col-md-12|auto">
+                      <p><b>Tamanho</b></p>
+                    <div class="row">
+                      <div class="col-md-12">  
+                        <button type="button" class="btn btn-size btn-md" id="btn-size">32</button>
+                        <button type="button" class="btn btn-size btn-md" id="btn-size">32</button>
+                        <button type="button" class="btn  btn-size btn-md" id="btn-size">32</button>
+                        <button type="button" class="btn btn-size btn-md" id="btn-size">32</button>
+                        <button type="button" class="btn btn-size btn-md" id="btn-size">32</button>
+                      </div>
+                      </div>
+                      <hr id="filter">  
+                  </div>
+                  <div class="row">
+                    <a href="#" id="hide"><i class="fas fa-minus"></i></a>
+                  </div>
+                </div>
+
+                <div class="row"><!--price row-->
+                  <div class="col-md-12|auto">
+                      
+                    <div class="row">
+                      <div class="col-md-10">
+                        <p><b>Faixa de preços</b></p>
+                      </div>
+                      <div class="col-md-1">
+                        <a href="#" id="hide"><i class="fas fa-minus"></i></a>
+                      </div>  
+                    </div>
+
+                    <div class="row">
+                      
+                        <div class="col-md-12">
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">até 29,99</label>
+                          </div>
+                        </div>  
+                        <div class="col-md-12">  
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">de 30,00 a 59,99</label>
+                          </div>
+                        </div>
+                        <div class="col-md-12">  
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck3">mais de 60,00</label>
+                          </div>
+                        </div>
+
+                    </div>  
+                    <hr id="filter"> 
+                  </div>
+                  
+                </div>
+
+            <div class="row tags"><!--tags row-->
+              <div class="col-md-12|auto">
+                <div class="row">
+                  <div class="col-md-10">
+                    <p><b>Confira também</b></p>
+                  </div>
+                </div>
+                  <div class="row">
+                    <div class="col-md-12">  
+                        <button type="button" class="btn btn-primary btn-sm">web</button>
+                        <button type="button" class="btn btn-primary btn-sm">design</button>
+                        <button type="button" class="btn btn-primary btn-sm">ilustration</button>
+                        <button type="button" class="btn btn-primary btn-sm">graphic</button>
+                        <button type="button" class="btn btn-primary btn-sm">app</button>
+                        <button type="button" class="btn btn-primary btn-sm">interfaces</button>
+                        <button type="button" class="btn btn-primary btn-sm">icon</button>
+                        <button type="button" class="btn btn-primary btn-sm">logo</button>
+                    </div>
+                  </div>  
+              </div>
+            </div>
+
+            <div class="row banner"><!--banner row-->
+              <div class="col">
+                <img src="img/banner.jpg" class="img-fluid" alt="Responsive image"> 
+              </div>
+            </div>
+
+          </div><!--filter end-->
+
+            <!--grid-->
+            <div class="col-md-9">
+              <div class="row grid">
+                <div class="col">
+                    <p><b>544</b> produtos encontrados</p>
+                </div>
+              
+                <p>Ordenar por:</p>
+                <div class="dropdown open">
+                  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Mais relevantes
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <button class="dropdown-item" type="button">{:Action}</button>
+                    <button class="dropdown-item" type="button">{:Another action}</button>
+                    <button class="dropdown-item" type="button">{:Something else here}</button>
+                  </div>
+                </div>
+                
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">
+                    <i class="fas fa-align-justify"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    <i class="fas fa-th-large"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    <i class="fas fa-th"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star1" onclick="add(this,1)">   
+                        </span>
+                        <span class="fa fa-star" id="star2" onclick="add(this,2)"></span>
+                        <span class="fa fa-star" id="star3" onclick="add(this,3)"></span>
+                        <span class="fa fa-star" id="star4" onclick="add(this,4)"></span>
+                        <span class="fa fa-star" id="star5" onclick="add(this,5)"></span></p>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>  
+
+                </div>                              
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star6" onclick="add(this,6)">   
+                        </span>
+                        <span class="fa fa-star" id="star7" onclick="add(this,7)"></span>
+                        <span class="fa fa-star" id="star8" onclick="add(this,8)"></span>
+                        <span class="fa fa-star" id="star9" onclick="add(this,9)"></span>
+                        <span class="fa fa-star" id="star10" onclick="add(this,10)"></span></p>
+                      </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>                    
+                </div>                              
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star11" onclick="add(this,11)">   
+                        </span>
+                        <span class="fa fa-star" id="star12" onclick="add(this,12)"></span>
+                        <span class="fa fa-star" id="star13" onclick="add(this,13)"></span>
+                        <span class="fa fa-star" id="star14" onclick="add(this,14)"></span>
+                        <span class="fa fa-star" id="star15" onclick="add(this,15)"></span></p>
+                      </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>                    
+                </div>                              
+              </div>
+
+
+            </div><!--products-row1 end-->
+
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star16" onclick="add(this,16)">   
+                        </span>
+                        <span class="fa fa-star" id="star17" onclick="add(this,17)"></span>
+                        <span class="fa fa-star" id="star18" onclick="add(this,18)"></span>
+                        <span class="fa fa-star" id="star19" onclick="add(this,19)"></span>
+                        <span class="fa fa-star" id="star20" onclick="add(this,20)"></span></p>
+                      </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>                    
+                </div>                              
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star21" onclick="add(this,21)">   
+                        </span>
+                        <span class="fa fa-star" id="star22" onclick="add(this,22)"></span>
+                        <span class="fa fa-star" id="star23" onclick="add(this,23)"></span>
+                        <span class="fa fa-star" id="star24" onclick="add(this,24)"></span>
+                        <span class="fa fa-star" id="star25" onclick="add(this,25)"></span></p>
+                      </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>                    
+                </div>                              
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://compredeboa.vteximg.com.br/arquivos/ids/1394015-250-250/Foto-0.jpg?v=636445456396600000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do produto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p><b>R$68,00</b>
+                        <span class="fa fa-star" id="star26" onclick="add(this,26)">   
+                        </span>
+                        <span class="fa fa-star" id="star27" onclick="add(this,27)"></span>
+                        <span class="fa fa-star" id="star28" onclick="add(this,28)"></span>
+                        <span class="fa fa-star" id="star29" onclick="add(this,29)"></span>
+                        <span class="fa fa-star" id="star30" onclick="add(this,30)"></span></p>
+                      </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p>O <b>Lar da vovozinha</b> recebe <b>R$23,00</b> desta compra.</p>
+                      </li>
+                    </ul>                    
+                </div>                              
+              </div>
+
+
+            </div><!--products-row2 end-->
+            <hr>
+
+            <div class="row page">
+              <div class="col-md-4">
+                  <a href="#">anterior</a>
+              </div>
+              <div class="col-md-4">
+                      <nav aria-label="Page navigation">
+                        <ul class="pagination">  
+                          <li class="page-item"><a class="page-link active-item" href="#">1</a></li>
+                          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+                        </ul>
+                      </nav>
+              </div>
+              <div class="col-md-4 next">
+                  <a href="#">próximo</a>
+              </div>
+            </div><!--pagination-row end-->
+            </div>
+                
+          </div>
+
+          </div><!--end row-->
+      </div><!--end col-md-10--> 
+      <div class="col-md-1 col-sm"></div>
+  </div><!--end container-->
+
+  <div class="container-fluid">
+    
+    <div class="row ">
+      <div class="col-md-5 col-email">
+        
+        <div class="row">
+          <h5>Inscrever-se para receber novidades</h5>
+          <p>Cadastre-se para receber novidades</p>
+        </div>
+        
+        <div class="row">  
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Digite seu e-mail" aria-label="Search">
+            <button type="button" class="btn btn-primary">CADASTRAR</button>
+          </form>
+        </div>
+
+      </div><!--end row-->
+
+      <div class="col-md-7 menu-footer">    
+          <div class="row menu_row">
+            <div class="col-md-3"></div>
+            
+            <div class="col-md-3">
+                <a href="#"><p>SOBRE A HAPPIES</p></a>
+                <a href="#"><p>SEJA UM REVENDEDOR</p></a>
+                <a href="#"><p>POLITICA DE PRIVACIDADE</p></a>
+                <a href="#"><p>TERMOS E CONDIÇÕES</p></a>
+                <a href="#"><p>PRESS-KIT</p></a>
+            </div>
+            
+            <div class="col-md-3">
+                <a href="#"><p>ENTRE EM CONTATO</p></a>
+                <a href="#"><p>COMPRAS E PAGAMENTOS</p></a>
+                <a href="#"><p>FRETE</p></a>
+                <a href="#"><p>DEVOLUÇÕES</p></a>
+                <a href="#"><p>FAQ</p></a>
+                <a href="#"><p>GUIA DE MEDIDAS</p></a>
+            </div>
+            
+            <div class="col-md-3">
+                <a href="#"><p>+55 84 3082-1757</p></a>
+                <a href="#"><p>CONTATO@GMAIL.COM</p></a>
+                <a href="#"><p>ENCONTRE UMA LOJA</p></a>
+            </div>
+          </div><!--end row-->
+      </div><!--end col-md-7--->
+    
+    </div><!--end row-->
+  </div><!--end container-fluid-->  
+
+   <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10">
+                © Happies - 2017 Todos os direitos reservados.
+              </div>
+              <div class="col-md-2 social-midias">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#search").click(function(){
+            $('#input_search').toggle("slow");
+        }); 
+      });
+    </script>
+<!--script rating-->
+    <script>
+      function add(ths,sno){
+        for (var i=1;i<=30;i++){
+          var cur=document.getElementById("star"+i)
+          cur.className="fa fa-star"
+        }
+
+        for (var i=1;i<=sno;i++){
+          var cur=document.getElementById("star"+i)
+          if(cur.className=="fa fa-star"){
+            cur.className="fa fa-star checked"
+          }
+        }
+      }
+    </script>
+  
+  </body>
+</html>
